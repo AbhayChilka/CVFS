@@ -20,6 +20,8 @@
             - Read file
             - Write file
             - Delete file
+  
+  *[Architecture Document](Docs/architecture.md)
 
 Compilation:
 g++ cvfs.cpp -o cvfs
