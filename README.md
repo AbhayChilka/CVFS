@@ -25,8 +25,7 @@
 Compilation:
 g++ cvfs.cpp -o cvfs
 ----------
-Execution:
-./cvfs
+Execution: ./cvfs
 ----------
 Usage:
 1. Run the executable
