@@ -1,65 +1,85 @@
-# Project Name : Customised Virtual File System (CVFS)
+# 📁 Custom Virtual File System (CVFS) – C++
+
+## 📌 Project Overview
+
+The **Custom Virtual File System (CVFS)** is a simulation of a UNIX-like file system implemented in C++.
+
+This project demonstrates how core file system components such as **Inodes, Superblock, File Table, and File Descriptors** work internally.
+
+It provides a command-line interface similar to Linux shell commands and mimics system calls like:
+
+- create
+- open
+- read
+- write
+- close
+- ls
+- stat
+- fstat
+- truncate
+- rm
+
+This project was built to understand low-level file system architecture and system programming concepts.
 
 ---
 
-# Description of the project :  
--    This project is used to emulate all functionalities provided by File systems.
--    It supports file creation, reading, writing, and deletion.
+## 🧠 Concepts Covered
+
+- Inode-based File System Design
+- File Descriptor Management
+- Linked List Implementation
+- Dynamic Memory Allocation
+- Command Line Parsing
+- System Programming Fundamentals
 
 ---
 
-# Technology used :  
--   System Programming using C
+## 🏗️ System Architecture
+
+- The internal architecture of CVFS is inspired by the UNIX file system.
+### [Architecture Document](Docs/architecture.md)
 
 ---
 
-# User interface used : 
--   Command-Line User Interfa(CUI)
+## ⚙️ Features Implemented
+
+- Create new file
+- Delete file
+- Open file
+- Close file
+- Read file
+- Write file
+- List all files
+- Display file information
+- Truncate file
+- Lseek functionality
+- Permission handling (Read / Write / Read & Write)
 
 ---
 
-# Platform required : 
--   Windows NT platform OR Linux Distributions
+## 🖥️ Supported Commands
+
+| Command | Description |
+|----------|-------------|
+| create <name> <permission> | Create new file |
+| open <name> <mode> | Open file |
+| write <fd> | Write into file |
+| read <fd> <size> | Read file data |
+| close <name> | Close file |
+| closeall | Close all opened files |
+| ls | List all files |
+| stat <name> | Display file information |
+| fstat <fd> | Display file info using FD |
+| truncate <name> | Remove file data |
+| rm <name> | Delete file |
 
 ---
 
-# Hardware requirements :
--    Intel 32 bit processor
+## 🛠️ How to Compile and Run
 
----
+### On Linux / Ubuntu
 
-# Features :
--   Create File
--   Open File
--   Read File
--   Write File
--   Delete File
-
----
-
-# [Architecture Document](Docs/architecture.md)
-
----
-
-# Compilation :
--   g++ cvfs.cpp -o cvfs
-
----
-
-# Execution :
--   ./cvfs
-
----
-
-# Usage :
-1. Run the executable
-2. Enter commands from the CLI
-
----
-
-# Limitations :
-- Maximum file size: 50 bytes
-- No persistence after program exit
-
----
+```bash
+g++ CVFS.cpp -o cvfs
+./cvfs
 

@@ -1,7 +1,7 @@
 # CVFS Architecture
 
 ## 1. Overview
-Marvellous CVFS is an in-memory virtual file system implemented in C.
+Marvellous CVFS is an in-memory virtual file system implemented in C++.
 It simulates core Linux file system concepts such as inodes, file descriptors,
 permissions, and read/write offsets without using kernel-level APIs.
 
