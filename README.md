@@ -7,8 +7,7 @@
 ----------
 * Technology used - System Programming using C
 ----------
-* User interface used - Command-Line User Interfa
-(CUI)
+* User interface used - Command-Line User Interfa(CUI)
 ----------
 * Platform required - Windows NT platform OR Linux Distributions
 ----------
@@ -20,17 +19,17 @@
             - Read file
             - Write file
             - Delete file
+-----------
 * [Architecture Document](Docs/architecture.md)
 -----------
-Compilation:
-g++ cvfs.cpp -o cvfs
-----------
+Compilation: g++ cvfs.cpp -o cvfs
+-----------
 Execution: ./cvfs
-----------
+-----------
 Usage:
 1. Run the executable
 2. Enter commands from the CLI
-----------
+-----------
 Limitations:
 - Maximum file size: 50 bytes
 - No persistence after program exit
