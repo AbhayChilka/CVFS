@@ -29,11 +29,11 @@
 ---
 
 # Features :
--            Create file
--            Open file
--            Read file
--            Write file
--            Delete file
+-   Create File
+-   Open File
+-   Read File
+-   Write File
+-   Delete File
 
 ---
 
