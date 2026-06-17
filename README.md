@@ -34,6 +34,12 @@ This project was built to understand low-level file system architecture and syst
 
 ---
 
+# Project Overview
+
+![Project Overview](Docs/Diagram.png)
+
+---
+
 ## 🏗️ System Architecture
 
 - The internal architecture of CVFS is inspired by the UNIX file system.
@@ -82,12 +88,6 @@ This project was built to understand low-level file system architecture and syst
 | fstat <fd> | Display file info using FD |
 | truncate <name> | Remove file data |
 | rm <name> | Delete file |
-
----
-
-# Project Overview
-
-![Project Overview](Docs/Diagram.png)
 
 ---
 
