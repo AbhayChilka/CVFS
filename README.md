@@ -94,7 +94,6 @@ g++ CVFS.cpp -o cvfs
 ./cvfs
 
 ---
-## Design
 
 <h2>Project Overview</h2>
 
