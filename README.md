@@ -93,4 +93,10 @@ This project was built to understand low-level file system architecture and syst
 g++ CVFS.cpp -o cvfs
 ./cvfs
 
+---
+## Design
+
+<h2>Project Overview</h2>
+
+<img src="Docs/Diagram.png" width="800">
 
