@@ -85,17 +85,18 @@ This project was built to understand low-level file system architecture and syst
 
 ---
 
+# Project Overview
+
+![Project Overview](Docs/Diagram.png)
+
+---
+
 ## 🛠️ How to Compile and Run
 
 ### On Linux / Ubuntu
 
 ```bash
 g++ CVFS.cpp -o cvfs
-./cvfs
+./cvfs 
 
----
-
-<h2>Project Overview</h2>
-
-<img src="Docs/Diagram.png" width="800">
 
