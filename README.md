@@ -6,6 +6,8 @@ The **Custom Virtual File System (CVFS)** is a simulation of a UNIX-like file sy
 
 This project demonstrates how core file system components such as **Inodes, Superblock, File Table, and File Descriptors** work internally.
 
+![Project Overview](Docs/Diagram.png)
+
 It provides a command-line interface similar to Linux shell commands and mimics system calls like:
 
 - create
@@ -31,12 +33,6 @@ This project was built to understand low-level file system architecture and syst
 - Dynamic Memory Allocation
 - Command Line Parsing
 - System Programming Fundamentals
-
----
-
-# Project Overview
-
-![Project Overview](Docs/Diagram.png)
 
 ---
 
